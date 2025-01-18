@@ -1,0 +1,33 @@
+{
+  "name": "manuscript",
+  "version": "0.0.1",
+  "description": "A CLI tool for creating Manuscript-Style Bible Studies",
+  "main": "src/app.mjs",
+  "type": "module",
+  "bin": {
+    "manuscript": "src/app.mjs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adam-savard/manuscript.git"
+  },
+  "keywords": [
+    "bible",
+    "study",
+    "manuscript",
+    "cli"
+  ],
+  "author": "Adam Savard",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/adam-savard/manuscript/issues"
+  },
+  "homepage": "https://github.com/adam-savard/manuscript#readme",
+  "dependencies": {
+    "bible-gateway-api": "^1.0.8",
+    "html-pdf-node": "^1.0.8"
+  }
+}
