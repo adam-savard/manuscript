@@ -24,14 +24,14 @@ const printHelp = () => {
         -ts, --title-size   The font size to use for the title (default: 16)
         -o, --output        The output file path (default: ./output.pdf)
                             (This can take either a .html or .pdf extension)
-        -h, --help, ?       Display this help message
+        -h, --help          Display this help message
     `);
     process.exit(0);
 }
 
 const main = async () => {
     //check for args
-    if(flagIsPresent('-h') || flagIsPresent('--help') || flagIsPresent('?')){
+    if(flagIsPresent('-h') || flagIsPresent('--help')){
         printHelp();
         process.exit(0);
     }
